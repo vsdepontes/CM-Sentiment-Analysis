@@ -1,0 +1,3 @@
+### Cooper's Modified Sentiment Analysis (CMSA)    
+   
+This is Cooper's Modified Sentiment Analysis (CMSA) tool, a version of the [nfl_team_sentiment](https://github.com/jnawjux/nfl_team_sentiment). The main differences from the original are that I changed some stuff to make it generic, so you can search for any keyword (not only football matches as the original), it works with tweets of virtually any language (although it works better with tweets in english), you can use this as a module, it is more customizable and has active development (looks like the original no longer has).

@@ -1,0 +1,7 @@
+lxml==3.5.0
+pyquery==1.2.10
+pandas
+datetime
+vaderSentiment
+inquirer
+translate

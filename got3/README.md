@@ -1,0 +1,1 @@
+This is a version of the [GetOldTweets-python](https://github.com/Jefferson-Henrique/GetOldTweets-python), slightly modified for this project.
