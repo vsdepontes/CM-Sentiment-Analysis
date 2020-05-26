@@ -6,6 +6,9 @@
 # C extensions
 *.so
 
+# Default output folder used for testing
+output/ 
+
 # VS Code
 */vscode
 

@@ -6,4 +6,4 @@ end_date = "2020-01-03"
 
 tsentiments = TwitterSentiments()
 
-tsentiments.search(keyword, start_date, end_date)
+tsentiments.search(keyword, start_date, end_date, result_path = "output/sentiment")
