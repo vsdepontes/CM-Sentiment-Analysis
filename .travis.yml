@@ -9,5 +9,8 @@ script:
   - python sentiment_tester.py
 after_script:
   - cd output
-  - cat sentiment.csv
+  - if [[ -s sentiment.txt ]]; then echo "# File sentiment.txt found"; else echo "File sentiment.txt not found"; exit 1; fi
+  - if [[ -s sentiment.csv ]]; then echo "# File sentiment.csv found"; else echo "File sentiment.csv not found"; exit 1; fi
   - cat sentiment.txt
+  - cat sentiment.csv
+  - if [[ `wc -l sentiment.csv | cut -d' ' -f1` -gt 1 ]]; then echo "# File sentiment.csv may be valid"; else echo "File sentiment.csv is not valid"; exit 1; fi
