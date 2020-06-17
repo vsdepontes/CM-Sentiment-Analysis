@@ -1,0 +1,16 @@
+language: python
+python:
+  - "3.8"
+branches:
+  only:
+    - development
+install:
+  - pip install -r requirements.txt
+before_script:
+  - mkdir output
+script:
+  - python sentiment_tester.py
+after_script:
+  - cd output
+  - cat sentiment.csv
+  - cat sentiment.txt
