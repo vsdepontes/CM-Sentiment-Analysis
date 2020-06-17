@@ -13,4 +13,4 @@ script:
 after_script:
   - cd output
   - cat sentiment.csv
-  - cat sentiment.txt'
+  - cat sentiment.txt
